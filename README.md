@@ -22,3 +22,19 @@ docker start -i brilws
 ```
 
 More information on how to run `brilcalc` and what it does can be found [here](http://opendata.cern.ch/docs/cms-guide-luminosity-calculation) and [here](https://cms-opendata-workshop.github.io/workshop-lesson-luminosity/).
+
+## To build the image
+Clone this repo:
+
+```
+git clone https://github.com/tpmccauley/brilws-docker.git
+```
+
+In the `brilws-docker` directory build the image:
+
+```
+cd brilws-docker
+docker build -t brilws .
+```
+
+
